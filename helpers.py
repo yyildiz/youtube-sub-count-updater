@@ -5,8 +5,8 @@ import os.path
 import logging
 import argparse
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 try:
     from instagram_private_api import (
         Client, ClientError, ClientLoginError,
