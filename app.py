@@ -1,10 +1,10 @@
 import requests
 import json
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os 
 import helpers
 
-load_dotenv()
+# load_dotenv()
 insta_api = helpers.get_instagram_api()
 api_key = os.getenv('YT_DATA_API_KEY')
 channel_id = os.getenv('CHANNEL_ID')
